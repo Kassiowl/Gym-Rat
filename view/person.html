@@ -1,0 +1,36 @@
+<form name="personForm" action="" METHOD="GET">
+    <div class="col-2">
+        <label for="sex" class="text-white">Sex</label>
+        <select name="sex" class="form-select bg-transparent text-white">
+            <option value="male" class="bg-dark">male</option>
+            <option value="female" class="bg-dark">female</option>
+        </select>
+    </div>
+    <div class="col-2">
+        <div class="bg-dark input-group input-group-sm mb-3">
+            <input type="number" name="weight" class="form-control bg-dark text-white" placeholder="Weight">
+            <div class="input-group-append">
+                <span class="input-group-text bg-dark text-secondary" id="basic-addon2">Kg</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+        <div class="bg-dark input-group input-group-sm mb-3">
+            <input type="number" name="height" class="form-control bg-dark text-white" placeholder="Height">
+            <div class="input-group-append">
+                <span class="input-group-text bg-dark text-secondary" id="basic-addon2">Cm</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+        <div class="bg-dark input-group input-group-sm mb-3">
+            <input type="number" name="age" class="form-control bg-dark text-white" placeholder="Age">
+            <div class="input-group-append">
+                <span class="input-group-text bg-dark text-secondary" id="basic-addon2">Years</span>
+            </div>
+            <div class="col-2">
+                <button type="submit" class="btn btn-sm btn-info" onclick="personFormulary(this.form)">confirm</button>
+            </div>
+        </div>
+    </div>
+</form>

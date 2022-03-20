@@ -1,0 +1,253 @@
+<style>
+    select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+</style>
+<script src="../scripts/Controllers/Food.js"></script>
+
+<div class="container-fluid">
+    <div class="text-center">
+        <button class=" text-center btn btn-outline-danger btn-lg" onclick="reset()">Reset</button>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <h4 class="text-left text-white">Meal 1</h4>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-4">
+            <h4 class="text-left text-white">Meal 2</h4>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick=" this.disable, mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-4">
+            <h4 class="text-left text-white">Meal 3</h4>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-4">
+            <h4 class="text-left text-white">Meal 3</h4>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-4">
+            <h4 class="text-left text-white">Meal 3</h4>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-4">
+            <h4 class="text-left text-white">Meal 3</h4>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+            <form>
+                <div class="bg-dark input-group mb-3 row">
+                    <select name="food" class="form-select bg-dark text-white">
+                        <option>Choose</option>
+                    </select>
+                    <input name="grams" type="number" class="form-control text-white bg-dark col-2" placeholder="g">
+                    <button type="submit" class="btn btn-success" onclick="mealForm(this.form)">✔️</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</div>
+  
