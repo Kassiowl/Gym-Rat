@@ -8,7 +8,7 @@ Gym Rat is an app to help organize a diet
 
 Options
 
-* Download in [Google Drive](https://drive.google.com/drive/folders/118sH6zyq-XOKuKHLgtpMFUVwGDoBeVgm?usp=sharing) and execute .exe file
+* Download in [Google Drive](https://drive.google.com/drive/folders/118sH6zyq-XOKuKHLgtpMFUVwGDoBeVgm?usp=sharing) extract and execute .exe file
 
 or
 
