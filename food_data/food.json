@@ -63,5 +63,21 @@
             "protein":22.21,
             "carbo":4.71,
             "fat":26.91
+        },
+        {
+            "id":9,
+            "name":"Bean",
+            "kcal":347,
+            "protein":21,
+            "carbo":63,
+            "fat":1.2
+        },
+        {
+            "id":10,
+            "name":"Tuna Fish",
+            "kcal":132,
+            "protein":28,
+            "carbo":0,
+            "fat":1.3
         }
 ]

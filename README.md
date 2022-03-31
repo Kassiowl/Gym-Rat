@@ -3,7 +3,7 @@
 <img src="https://i.imgur.com/DSbTPMx.png" alt="Gym Rat logo" style="height: 50; width:50px;"/>
 <br>
 Gym Rat is an app to help organize a diet
-
+All nutrition facts are taken from google 
 ## Installation
 
 Options
