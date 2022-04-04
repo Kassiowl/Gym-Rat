@@ -8,11 +8,18 @@ function choosePage(pageChoosen)
             $('#main').load("person.html");
         });
     }
-    else
+    else if(pageChoosen==2)
     {
         $(function()
         {
             $('#main').load("diet.html");
+        })
+    }
+    else
+    {
+        $(function()
+        {
+            $('#main').load("entry_food.html");
         })
     }
 }
@@ -46,5 +53,6 @@ $(function()
 choosePage(1)
 document.getElementById("user").addEventListener("click",function(){choosePage(1)});
 document.getElementById("dietary").addEventListener("click",function(){choosePage(2)});
+document.getElementById("entryFood").addEventListener("click",function(){choosePage(3)});
 
 

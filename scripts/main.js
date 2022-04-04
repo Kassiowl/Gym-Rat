@@ -11,7 +11,7 @@ function createWindow () {
       webPreferences:
       {
         sandbox: true,
-        devTools: false
+        devTools: true
       },
       width: 1200, height: 900,
       icon: "./img/icon.ico",
