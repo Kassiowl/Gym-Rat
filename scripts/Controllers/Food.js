@@ -15,6 +15,7 @@ async function getData() //get Json data with food information
     .then(res => res.json())
     
 }
+
 (async function() //populate meal options       //this executes when the user click on the meal icon
 {
     data = await getData()  //Get Json data

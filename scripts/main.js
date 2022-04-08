@@ -8,11 +8,11 @@ function createWindow () {
   (
     { 
 
-      webPreferences:
-      {
-        sandbox: true,
-        devTools: true
-      },
+      webPreferences: {
+        nodeIntegration: true,
+        contextIsolation: false,
+        devTools: false,
+    },
       width: 1200, height: 900,
       icon: "./img/icon.ico",
       title: "Gym Rat",

@@ -38,7 +38,7 @@ Use your height, weight and age to calculate basal metabolism and organize your 
 - [ ] Multi-language Support
     - [x] English
     - [ ] Portuguese
-- [ ] User Custom Food
+- [x] User Custom Food
 - [ ] Custom Standard Active factor
 
 
