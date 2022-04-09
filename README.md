@@ -8,7 +8,7 @@ All nutrition facts are taken from google
 
 Options
 
-* Download in [Google Drive](https://drive.google.com/drive/folders/118sH6zyq-XOKuKHLgtpMFUVwGDoBeVgm?usp=sharing) extract and execute .exe file
+* Download in [Google Drive](https://drive.google.com/file/d/1fgNvEuLydZAH9BP8Y3CVLKvW1dVRc-g9/view?usp=sharing) extract and execute .exe file
 
 or
 
