@@ -34,11 +34,17 @@ function personFormulary(form) //calculate metabolism based on the form data
     });
     if(data[0].value=='male')
     {
-        result = data[4].value*(88.362 + (13.397 * data[1].value) + (4.799 * data[2].value) - (5.677 * data[3].value))
+        result = data[4].value* (88.4 + (13.4 * data[1].value) + (4.8 * data[2].value) - (5.68 * data[3].value))
+
+        // BMR Male: (88.4 + 13.4 x weight in kilograms) + (4.8 x height in centimeters) – (5.68 x age)
+        //result(AMR) = Active_Factor * BMR
+
     }
     else
     {
-        result = data[4].value*(655 + (9.6 * data[1].value) + (1.8 * data[2].value) - (4.7*data[3].value));
+        // BMR Female: (447.6 + 9.25 x weight in kilograms) + (3.10 x height in centimeters) – (4.33 x age)
+        //result(AMR) = Active_Factor * BMR
+        result = data[4].value*(447.6 + (9.25 * data[1].value) + (3.10 * data[2].value) - (4.33*data[3].value));
     }
     document.getElementById('Caloric_Expenditure').innerHTML = ((result.toFixed(3))+"Kcal");
     document.getElementById("FA").innerHTML = data[4].value;
