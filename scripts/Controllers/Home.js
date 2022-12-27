@@ -41,7 +41,7 @@ function personFormulary(form) //calculate metabolism based on the form data
         result = data[4].value*(655 + (9.6 * data[1].value) + (1.8 * data[2].value) - (4.7*data[3].value));
     }
     document.getElementById('Caloric_Expenditure').innerHTML = ((result.toFixed(3))+"Kcal");
-    document.getElementById("FA").innerHTML += data[4].value;
+    document.getElementById("FA").innerHTML = data[4].value;
 }
 
 $(function()
